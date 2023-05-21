@@ -28,7 +28,7 @@ void seg_vInit(void)
 
 void seg_vDisplay(u8 data)
 {
-	GPIOA_ODR = seg_arr[data];
+	GPIOA_ODR = (seg_arr[data]);
 
 }
 
